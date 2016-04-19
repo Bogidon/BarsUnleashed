@@ -20,7 +20,9 @@ class ViewController: UIViewController {
                     BarEntry(value: 10, name: "Fantastic", color: UIColor.greenColor()),
                     BarEntry(value: 17, name: "Happy", color: UIColor.redColor()),
                     BarEntry(value: 8, name: "Meh...", color: UIColor.purpleColor())]
+        barView.uncompletedColor = UIColor(white: 0.2, alpha: 1.0)
         barView.setData(data, animated: true)
+        view.backgroundColor = UIColor(white: 0.3, alpha: 1.0)
     }
 
     override func didReceiveMemoryWarning() {

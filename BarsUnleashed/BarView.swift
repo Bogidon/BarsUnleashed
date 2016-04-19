@@ -20,7 +20,7 @@ public class BarView: CommonInitStackView {
     }
     
     /// Color for the uncompleted portion of the bar
-    public var uncompletedColor = UIColor.grayColor()
+    public var uncompletedColor = UIColor.darkGrayColor()
     
     /**
      Set the data for the bar graph
