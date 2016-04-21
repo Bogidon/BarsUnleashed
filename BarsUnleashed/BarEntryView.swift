@@ -13,8 +13,11 @@ internal class BarEntryView: CommonInitStackView {
     let headerView = BarEntryHeaderView()
     let bar = Bar()
     
+    private let _spacing: CGFloat = 6
+    
     override func commonInit() {
         axis = .Vertical
+        spacing = _spacing
         distribution = .EqualSpacing
         addArrangedSubview(headerView)
         addArrangedSubview(bar)

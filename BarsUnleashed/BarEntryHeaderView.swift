@@ -10,8 +10,8 @@ import UIKit
 
 internal class BarEntryHeaderView: CommonInitStackView {
 
-    private let titleLabel = UILabel()
-    private let valueLabel = UILabel()
+    internal let titleLabel = UILabel()
+    internal let valueLabel = UILabel()
     
     var title: String? {
         didSet {

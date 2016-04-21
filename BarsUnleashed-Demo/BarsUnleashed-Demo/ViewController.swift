@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let data = [BarEntry(value: 20, name: "Angry", color: UIColor.blueColor()),
                     BarEntry(value: 10, name: "Fantastic", color: UIColor.greenColor()),
                     BarEntry(value: 17, name: "Happy", color: UIColor.redColor()),

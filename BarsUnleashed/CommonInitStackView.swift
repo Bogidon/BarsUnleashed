@@ -9,17 +9,17 @@
 import Foundation
 
 public class CommonInitStackView: UIStackView {
-    override internal init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }
     
-    override internal init(arrangedSubviews views: [UIView]) {
+    override public init(arrangedSubviews views: [UIView]) {
         super.init(arrangedSubviews: views)
         commonInit()
     }
     
-    convenience internal init() {
+    convenience public init() {
         self.init(arrangedSubviews: [])
         commonInit()
     }
