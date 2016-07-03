@@ -25,6 +25,13 @@ internal class Bar: UIView {
         }
     }
     
+    /// Color for the border of the uncompleted portion of the bar
+    var borderColor = UIColor.lightGrayColor().CGColor {
+        didSet {
+            backgroundLayer?.borderColor = borderColor
+        }
+    }
+    
     /// Ratio of the bar that is filled (0.0 to 1.0)
     private var value: CGFloat = 0.0
     
@@ -39,10 +46,9 @@ internal class Bar: UIView {
     
     
     // MARK: - Constants
-    private let _intrinsicHeight: CGFloat = 16.0
+    private let _intrinsicHeight: CGFloat = 10.0
     private let _damping: CGFloat = 10
     private let _borderWidth: CGFloat = 1
-    private let _borderColor = UIColor.lightGrayColor().CGColor
     private let _backgroundHeightRatio: CGFloat = 0.85
     
     override func intrinsicContentSize() -> CGSize {
@@ -60,7 +66,7 @@ internal class Bar: UIView {
             backgroundLayer = CALayer()
             backgroundLayer.backgroundColor = uncompletedColor
             backgroundLayer.borderWidth = _borderWidth
-            backgroundLayer.borderColor = _borderColor
+            backgroundLayer.borderColor = borderColor
             backgroundLayer.anchorPoint = CGPointMake(0, 0)
             backgroundLayer.frame = backgroundLayerBounds(layer.bounds)
             backgroundLayer.cornerRadius = backgroundLayer.bounds.size.height / 2.0

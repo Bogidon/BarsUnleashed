@@ -22,13 +22,19 @@ public class BarView: CommonInitStackView {
     }
     
     /// Color for the uncompleted portion of the bar
-    public var uncompletedColor = UIColor.darkGrayColor()
+    public var uncompletedColor = UIColor.darkGrayColor() { didSet { updateLabelStyles() } }
+    
+    /// Color for the border of the uncompleted portion of the bar
+    public var borderColor = UIColor.lightGrayColor() { didSet { updateLabelStyles() } }
     
     /// Text color
     public var textColor = UIColor.whiteColor() { didSet { updateLabelStyles() } }
 
-    /// Label font
-    public var font = UIFont.systemFontOfSize(UIFont.labelFontSize()) { didSet { updateLabelStyles() } }
+    /// Name label font
+    public var nameFont = UIFont.systemFontOfSize(UIFont.labelFontSize()) { didSet { updateLabelStyles() } }
+    
+    /// Value label font
+    public var valueFont = UIFont.systemFontOfSize(UIFont.labelFontSize()) { didSet { updateLabelStyles() } }
     
     /**
      Set the data for the bar graph
@@ -37,6 +43,7 @@ public class BarView: CommonInitStackView {
      - parameter animated:  animates the bars on load and bounds change
      */
     public func setData(data: [BarEntry], animated: Bool = true) {
+        views.forEach { $0.removeFromSuperview() }
         views.removeAll()
         
         for entry in data {
@@ -64,15 +71,17 @@ public class BarView: CommonInitStackView {
         let max = data.map { $0.value ?? 0 }.maxElement() ?? 0
         print(max)
         let multiplier = (1.0 + _requiredRatioEmpty)
-        return Int(Double(max) * multiplier)
+        return Int(ceil(Double(max) * multiplier))
     }
     
     private func updateLabelStyles() {
         for view in views {
             view.headerView.titleLabel.textColor = textColor
-            view.headerView.titleLabel.font = font
+            view.headerView.titleLabel.font = nameFont
             view.headerView.valueLabel.textColor = textColor
-            view.headerView.valueLabel.font = font
+            view.headerView.valueLabel.font = valueFont
+            view.bar.uncompletedColor = uncompletedColor.CGColor
+            view.bar.borderColor = borderColor.CGColor
         }
     }
 
