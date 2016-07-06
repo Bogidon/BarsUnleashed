@@ -17,7 +17,7 @@
                BlueprintIdentifier = "43E2E4C21CC319BB005069BA"
                BuildableName = "BarsUnleashed.framework"
                BlueprintName = "BarsUnleashed"
-               ReferencedContainer = "container:../BarsUnleashed.xcodeproj">
+               ReferencedContainer = "container:../BarsUnleashed/BarsUnleashed.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

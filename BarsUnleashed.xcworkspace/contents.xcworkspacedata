@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BarsUnleashed.xcodeproj">
+      location = "group:BarsUnleashed/BarsUnleashed.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:BarsUnleashed-Demo/BarsUnleashed-Demo.xcodeproj">

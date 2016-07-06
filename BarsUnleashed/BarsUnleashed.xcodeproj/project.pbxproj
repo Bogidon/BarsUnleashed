@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43E2E4C71CC319BB005069BA /* BarsUnleashed.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E2E4C61CC319BB005069BA /* BarsUnleashed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43E2E4CF1CC319F7005069BA /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2E4CE1CC319F7005069BA /* BarView.swift */; };
-		43E2E4D31CC31A22005069BA /* BarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2E4D21CC31A22005069BA /* BarEntry.swift */; };
-		43E2E4D51CC31AEB005069BA /* BarEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2E4D41CC31AEB005069BA /* BarEntryView.swift */; };
-		43E2E4D71CC31B78005069BA /* BarEntryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2E4D61CC31B78005069BA /* BarEntryHeaderView.swift */; };
-		43E2E4D91CC31B98005069BA /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2E4D81CC31B98005069BA /* Bar.swift */; };
-		43F96D381CC5C83200BA6AE8 /* CommonInitStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F96D371CC5C83200BA6AE8 /* CommonInitStackView.swift */; };
+		435649F61D29CCAE0012D268 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435649EF1D29CCAE0012D268 /* Bar.swift */; };
+		435649F71D29CCAE0012D268 /* BarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435649F01D29CCAE0012D268 /* BarEntry.swift */; };
+		435649F81D29CCAE0012D268 /* BarEntryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435649F11D29CCAE0012D268 /* BarEntryHeaderView.swift */; };
+		435649F91D29CCAE0012D268 /* BarEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435649F21D29CCAE0012D268 /* BarEntryView.swift */; };
+		435649FB1D29CCAE0012D268 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435649F41D29CCAE0012D268 /* BarView.swift */; };
+		435649FC1D29CCAE0012D268 /* CommonInitStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435649F51D29CCAE0012D268 /* CommonInitStackView.swift */; };
+		435649FD1D29CD040012D268 /* BarsUnleashed.h in Headers */ = {isa = PBXBuildFile; fileRef = 435649F31D29CCAE0012D268 /* BarsUnleashed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		435649EF1D29CCAE0012D268 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = SOURCE_ROOT; };
+		435649F01D29CCAE0012D268 /* BarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntry.swift; sourceTree = SOURCE_ROOT; };
+		435649F11D29CCAE0012D268 /* BarEntryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntryHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		435649F21D29CCAE0012D268 /* BarEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntryView.swift; sourceTree = SOURCE_ROOT; };
+		435649F31D29CCAE0012D268 /* BarsUnleashed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarsUnleashed.h; sourceTree = SOURCE_ROOT; };
+		435649F41D29CCAE0012D268 /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = SOURCE_ROOT; };
+		435649F51D29CCAE0012D268 /* CommonInitStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonInitStackView.swift; sourceTree = SOURCE_ROOT; };
 		43E2E4C31CC319BB005069BA /* BarsUnleashed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarsUnleashed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E2E4C61CC319BB005069BA /* BarsUnleashed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarsUnleashed.h; sourceTree = "<group>"; };
 		43E2E4C81CC319BB005069BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43E2E4CE1CC319F7005069BA /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
-		43E2E4D21CC31A22005069BA /* BarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntry.swift; sourceTree = "<group>"; };
-		43E2E4D41CC31AEB005069BA /* BarEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntryView.swift; sourceTree = "<group>"; };
-		43E2E4D61CC31B78005069BA /* BarEntryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntryHeaderView.swift; sourceTree = "<group>"; };
-		43E2E4D81CC31B98005069BA /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
-		43F96D371CC5C83200BA6AE8 /* CommonInitStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonInitStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +58,14 @@
 		43E2E4C51CC319BB005069BA /* BarsUnleashed */ = {
 			isa = PBXGroup;
 			children = (
-				43E2E4C61CC319BB005069BA /* BarsUnleashed.h */,
+				435649EF1D29CCAE0012D268 /* Bar.swift */,
+				435649F01D29CCAE0012D268 /* BarEntry.swift */,
+				435649F11D29CCAE0012D268 /* BarEntryHeaderView.swift */,
+				435649F21D29CCAE0012D268 /* BarEntryView.swift */,
+				435649F31D29CCAE0012D268 /* BarsUnleashed.h */,
+				435649F41D29CCAE0012D268 /* BarView.swift */,
+				435649F51D29CCAE0012D268 /* CommonInitStackView.swift */,
 				43E2E4C81CC319BB005069BA /* Info.plist */,
-				43E2E4CE1CC319F7005069BA /* BarView.swift */,
-				43E2E4D41CC31AEB005069BA /* BarEntryView.swift */,
-				43E2E4D61CC31B78005069BA /* BarEntryHeaderView.swift */,
-				43E2E4D81CC31B98005069BA /* Bar.swift */,
-				43E2E4D21CC31A22005069BA /* BarEntry.swift */,
-				43F96D371CC5C83200BA6AE8 /* CommonInitStackView.swift */,
 			);
 			path = BarsUnleashed;
 			sourceTree = "<group>";
@@ -77,7 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E2E4C71CC319BB005069BA /* BarsUnleashed.h in Headers */,
+				435649FD1D29CD040012D268 /* BarsUnleashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,12 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E2E4D31CC31A22005069BA /* BarEntry.swift in Sources */,
-				43E2E4D91CC31B98005069BA /* Bar.swift in Sources */,
-				43F96D381CC5C83200BA6AE8 /* CommonInitStackView.swift in Sources */,
-				43E2E4D51CC31AEB005069BA /* BarEntryView.swift in Sources */,
-				43E2E4CF1CC319F7005069BA /* BarView.swift in Sources */,
-				43E2E4D71CC31B78005069BA /* BarEntryHeaderView.swift in Sources */,
+				435649FC1D29CCAE0012D268 /* CommonInitStackView.swift in Sources */,
+				435649F81D29CCAE0012D268 /* BarEntryHeaderView.swift in Sources */,
+				435649F71D29CCAE0012D268 /* BarEntry.swift in Sources */,
+				435649F61D29CCAE0012D268 /* Bar.swift in Sources */,
+				435649F91D29CCAE0012D268 /* BarEntryView.swift in Sources */,
+				435649FB1D29CCAE0012D268 /* BarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -259,7 +259,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BarsUnleashed/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -279,7 +279,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BarsUnleashed/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
